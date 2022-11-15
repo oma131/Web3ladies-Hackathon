@@ -5,18 +5,18 @@ import "./QuestionsCard.css";
 export const Questions: FC = () => {
   return (
     <div className="questions">
-      <AccordionItem title="What do you design?" content="answer A" />
-      <AccordionItem
-        title="Can you do everything for me, including content and copywriting?"
-        content="answer A"
+      <AccordionItem 
+        title="What is BINA?" 
+        content="BINA is an African Historic NFT Collection.
+        This is the first phase to revitalize the stories and cultural Heritage lost in African History over time." 
       />
       <AccordionItem
-        title="How to provide you copy and content for my presentation?"
-        content="answer A"
+        title="What is the Aim of BINA?"
+        content="To share the true story of the African Heritage with the world and help preseve the African culture"
       />
       <AccordionItem
-        title="I have a huge presentation of over 50 slides, can you design that?"
-        content="answer A"
+        title="How Do I mint the BINA NFT?"
+        content="On the Bina landing page, Go to the mint section, connect your wallet and click on MINT"
       />
     </div>
   );

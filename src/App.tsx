@@ -26,17 +26,18 @@ function App() {
       <main className="main">
         <section className="first-section about-section p-app" id="home">
           <div>
-            <h1 className="h1-hero">Minting now</h1>
+            <h1 className="h1-hero">BINA NFT</h1>
             <p className="description">
-              Quia sed quod fuga tempora. Officiis voluptas asperiores numquam.
-              Velit occaecati et et blanditiis ab placeat qui.
+              BINA is an African Historic NFT Collection. <br/>
+              This is the first phase to revitalize the stories and
+              cultural Heritage lost in African History over time.
             </p>
           </div>
           <img src={Coins} className="coins" />
         </section>
 
         <section className="section bina-hero mint-section" id="mint">
-          <h1 className="h1 align-center">Mint</h1>
+          <h1 className="h1 align-center">Mint Now</h1>
           <MintCard imageSrc={SampleImg} {...bunzz} />
         </section>
 
@@ -52,26 +53,26 @@ function App() {
         </section>
 
         <section className="section p-app" id="team">
-          <h1 className="h1 align-center">Team</h1>
+          <h1 className="h1 align-center">Meet Our Team</h1>
 
           <div className="members">
             <MemberCard
               imageSrc={MemberImg1}
-              name="Akbar Shamji"
-              role="President + CEO"
-              twitterLink="https://twitter.com/"
+              name="Olanike Ogundiran"
+              role="Team Member"
+              twitterLink="https://twitter.com/Missnikkybaby"
             />
             <MemberCard
               imageSrc={MemberImg2}
-              name="Akbar Shamji"
-              role="President + CEO"
-              twitterLink="https://twitter.com/"
+              name="Elizabeth Olusipe"
+              role="Team Member"
+              twitterLink="https://twitter.com/bethanhelen8"
             />
             <MemberCard
               imageSrc={MemberImg3}
-              name="Akbar Shamji"
-              role="President + CEO"
-              twitterLink="https://twitter.com/"
+              name="Ihuoma Anosike"
+              role="Team Member"
+              twitterLink="https://twitter.com/IhuomaAnosike"
             />
           </div>
         </section>

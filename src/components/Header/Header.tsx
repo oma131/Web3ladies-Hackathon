@@ -36,7 +36,8 @@ export const Header: FC = () => {
     <>
       {isOpen && <MobileMenuList setIsOpen={setIsOpen} />}
       <header className="header">
-        <img src={Logo} alt="logo" />
+        {/* <img src={Logo} alt="logo" /> */}
+        <h1 className="h1">BINA</h1>
 
         {isLarge ? (
           <nav className="menu-list">
