@@ -2,7 +2,7 @@ import bunzz, { Contract, Handler } from "bunzz-sdk";
 import { useEffect, useState } from "react";
 import { toast } from "react-toastify";
 
-// ===== Make changes as needed (start) =====
+//Important state Variables.
 export const chainId = 80001;
 const MODULE_NAME = "NFTMintingModule"; // This value is the name of module in Bunzz App.
 export const NETWORK_INFO = {
@@ -12,7 +12,7 @@ export const NETWORK_INFO = {
   rpcUrls: ["https://matic-mumbai.chainstacklabs.com"],
 };
 const IPFS_GW_BASEURL_JSON = `https://cloudflare-ipfs.com/ipfs`;
-// ===== Make changes as needed (end) ======
+
 
 // You can get these values from "Client SDK" in sidebar of Bunzz App
 const DAPP_ID = process.env.REACT_APP_DAPP_ID || "";
