@@ -109,7 +109,7 @@ const MintForm: FC<MintFormProps> = ({
   return (
     <div>
       <div className="address-box">
-        <img src={Check} className="address-box-check" />
+        <img src={Check} alt="Address box" className="address-box-check" />
         <span>Wallet {signerAddr} connected</span>
       </div>
       <div className="mint-form">
@@ -142,7 +142,7 @@ type NFTCardProps = {
 const NFTCard: FC<NFTCardProps> = ({ src, name }) => {
   return (
     <div className="nft-card">
-      <img src={src} className="nft-card-image" />
+      <img src={src} alt="Nft card" className="nft-card-image" />
 
       <div className="nft-card-info">
         <div className="nft-card-info-name">{name}</div>

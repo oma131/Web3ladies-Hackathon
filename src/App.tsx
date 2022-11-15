@@ -33,7 +33,7 @@ function App() {
               cultural Heritage lost in African History over time.
             </p>
           </div>
-          <img src={Coins} className="coins" />
+          <img src={Coins} alt="Header hero" className="coins" />
         </section>
 
         <section className="section bina-hero mint-section" id="mint">

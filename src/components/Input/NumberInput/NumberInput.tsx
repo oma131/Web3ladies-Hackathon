@@ -21,7 +21,7 @@ export const NumberInput: FC<Props> = ({ onChange, value, min, max }) => {
           }
         }}
       >
-        <img src={Minus} />
+        <img src={Minus} alt="Minus" />
       </button>
 
       <input
@@ -50,7 +50,7 @@ export const NumberInput: FC<Props> = ({ onChange, value, min, max }) => {
           }
         }}
       >
-        <img src={Plus} />
+        <img src={Plus} alt="plus icon" />
       </button>
     </div>
   );

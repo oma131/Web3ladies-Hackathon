@@ -49,7 +49,7 @@ export const Header: FC = () => {
           </nav>
         ) : (
           <button className="menu-button" onClick={() => setIsOpen(true)}>
-            <img src={Menu} alt="logo" />
+            <img src={Menu} alt="Big logo" />
           </button>
         )}
       </header>
@@ -68,12 +68,12 @@ const MobileMenuList: FC<MobileMenuListProps> = ({ setIsOpen }) => {
         className="menu-button back-button"
         onClick={() => setIsOpen(false)}
       >
-        <img src={LeftArrow} alt="logo" />
+        <img src={LeftArrow} alt="open icon" />
       </button>
 
       <div className="mobile-menu-list">
         <div className="logo">
-          <img src={Logo} alt="logo" />
+          <img src={Logo} alt="Mobile logo" />
         </div>
 
         <div className="menu-list-items">

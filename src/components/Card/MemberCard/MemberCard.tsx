@@ -26,7 +26,7 @@ export const MemberCard: FC<Props> = ({
         </div>
 
         <a className="twitter-btn" href={twitterLink} target="_blank">
-          <img src={Twitter} />
+          <img src={Twitter} alt="Twitter Button"/>
         </a>
       </div>
     </div>
