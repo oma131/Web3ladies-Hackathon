@@ -1,0 +1,46 @@
+.member-card {
+  box-shadow: 0px 20px 60px 0px #25161b;
+  border-radius: 8px;
+  padding: 28px;
+  width: fit-content;
+  background: #f3cba5;
+}
+
+.image {
+  width: 286px;
+  height: 286px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.member-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 160%;
+  color: #25161b;
+}
+
+.role {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  color: #25161b;
+}
+
+.twitter-btn {
+  height: 46px;
+  width: 46px;
+  background-color: #f3cba5;
+  border: 1px solid #25161b;
+  border-radius: 999px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,12 @@
+.questions {
+  background-color: #25161b;
+  color: #f3cba5;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+  .questions {
+      box-shadow: 0px 20px 60px rgba(0, 9, 28, 0.05);
+  }
+}
